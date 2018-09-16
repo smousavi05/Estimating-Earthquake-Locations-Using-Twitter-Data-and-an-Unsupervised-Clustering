@@ -1,4 +1,4 @@
-# Estimating Earthquake locations using Twitter data and affinity propagation
+# Estimating Earthquake locations using Twitter data and affinity propagation
 
 Due to the speed of post creations and ease of near realtime access, using social media such as Twitter can be a potential for gaining situational awareness following disasters.
 
@@ -46,5 +46,5 @@ I use this algorithem because unlike other clustering algorithms such as k-means
 Brendan J. Frey and Delbert Dueck (2007) “Clustering by Passing Messages Between Data Points”, Science.
 
 ![results](F6.png)
-
+Not bad, yeah
 
