@@ -45,4 +45,6 @@ I use this algorithem because unlike other clustering algorithms such as k-means
 
 Brendan J. Frey and Delbert Dueck (2007) “Clustering by Passing Messages Between Data Points”, Science.
 
+![results](F6.png)
+
 
