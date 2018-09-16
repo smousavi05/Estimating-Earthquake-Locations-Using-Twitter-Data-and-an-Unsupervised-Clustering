@@ -1,4 +1,4 @@
-# Estimating Earthquake locations using Twitter data and affinity propagation
+# Estimating Earthquake Locations Using Twitter Data and Affinity Propagation
 
 Due to the speed of post creations and ease of near realtime access, using social media such as Twitter can be a potential for gaining situational awareness following disasters.
 
