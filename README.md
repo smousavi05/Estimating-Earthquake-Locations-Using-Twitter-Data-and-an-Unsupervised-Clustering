@@ -10,7 +10,8 @@ The main idea here is to use the first order reports of an earthquake occurrence
 
 Here I present a simple way to do this without any need for steam of the data or NLP or training data set.
 
-# Part 1: getting data from Twitter
+# Part 1: Getting the Twitter Data
+
 There are several ways to do this. Here I use `tweepy`
 You need to create an account for Twitter API first and use your consumer and access information for connecting the Twitter API. (here I deleted mine!)
 
