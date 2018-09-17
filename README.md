@@ -50,7 +50,7 @@ Simply we just need to generate something like this:
 
 `http://earthquake.usgs.gov/fdsnws/event/1/query.csv?starttime=2000-01-01%2000:00:00&endtime=2015-1231%2023:59:59&maxlatitude=50&minlatitude=24.6&maxlongitude=-65&minlongitude=-125&minmagnitude=3&eventtype=earthquake&orderby=time-asc`
 
-and then retrieve the data and store it in a local directory. 
+to search for the earthquake information for the same time period and then retrieve the data and store it in a local directory. 
 ________________________________
 
 Our goal is to detect earthquakes based on evidences of firsthand felt reports from Twitter. So we need to identify tweets originating from users who experienced earthquake shaking like this one:
