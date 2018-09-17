@@ -10,6 +10,8 @@ The main idea here is to use the first order reports of an earthquake occurrence
 
 Here I present a simple way to do this without any need for steam of the data or NLP or training data set.
 
+-----------------------------------------
+
 # Part 1: Getting the Twitter Data
 
 There are several ways to do this. Here I use `tweepy`
@@ -29,7 +31,16 @@ we search Twitter API for the word "earthquake" in 23 different languages:
                      'aardbeving', '地震',
                      'भूकंप', 'زلزال', 
                      'tremor', '지진', 'زلزله' ]`
-                     
+ 
+To retrive dat from Twitter we first need a tweet Id as a 'starting point' from which to search. 
+`get_tweet_id()` function finds the ID of a tweet that was posted at the end of a given day.
+
+Twitter limits the maximum number of tweets returned per search to 100. 
+`tweet_search()` function searches for up to max_tweets=100 tweets. 
+Whenever it reached the max_tweets limit, it will pause for 15 minuts and then resume the search.
+
+-------------------------------------------
+
 Our goal is to detect earthquakes based on evidences of firsthand felt reports from Twitter. So we need to identify tweets originating from users who experienced earthquake shaking like this one:
 
 ![the tweets we are looking for](F.png)
