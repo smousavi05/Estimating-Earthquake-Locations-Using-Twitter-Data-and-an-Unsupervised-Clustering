@@ -1,8 +1,19 @@
 # Estimating Earthquake Locations Using Twitter Data and Affinity Propagation
 
-Due to the speed of post creations and ease of near realtime access, using social media such as Twitter can be a potential for gaining situational awareness following disasters.
+Seismographs (instruments used for recording seismic signals) continuously record velocity of ground motions at different locations. When the ground shaking at a particular seismic station exceeds a predefined threshold, a seismograph gets triggered and transmit an alert to a data center. Triggering of multiple instruments at different stations over an area within a relatively short period of time usually indicates the occurrence of an earthquake. The transmitted seismic signals from multiple stations need to be processed further to estimate the earthquake hypocenter.
 
-Here I preset a simple way to do this witout any need for steam of the data or NLP or training data set.
+![ovel view of seismic wave propagation](F0.jpg)
+
+However, this process can be time-consuming (takes a few to several minutes) and moreover there are many places around the world with not a good coverage of seismic stations. 
+
+The main idea here is to use the first order reports of an earthquake occurrence in the social media by people who actually felt it, for a rapid/rough estimation of earthquake location. Due to the speed of post creations and ease of near real-time access, using social media such as Twitter can be a potential for gaining situational awareness following disasters.
+
+Here I present a simple way to do this without any need for steam of the data or NLP or training data set.
+
+# Part 1: getting data from Twitter
+There are several ways to do this. Here I use `tweepy`
+You need to create an account for Twitter API first and use your consumer and access information for connecting the Twitter API. (here I deleted mine!)
+
 
 we search Twitter API for the word "earthquake" in 23 different languages:
 
