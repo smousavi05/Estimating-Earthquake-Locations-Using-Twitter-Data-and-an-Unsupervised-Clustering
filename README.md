@@ -41,6 +41,18 @@ Whenever it reached the max_tweets limit, it will pause for 15 minuts and then r
 
 -------------------------------------------
 
+# Part 2: Getting the Earthquake Data 
+
+Again there are several ways for doing this using different options for downloading earthquake catalogs from international data centers such as ISC (http://www.isc.ac.uk/), using national catalogs like comcat, using official API of Us Geological Survey, or accessing to different apps. 
+
+Here, I do it in the easiest way, using Us Geological Survey's web service. 
+Simply we just need to generate something like this:
+
+`http://earthquake.usgs.gov/fdsnws/event/1/query.csv?starttime=2000-01-01%2000:00:00&endtime=2015-1231%2023:59:59&maxlatitude=50&minlatitude=24.6&maxlongitude=-65&minlongitude=-125&minmagnitude=3&eventtype=earthquake&orderby=time-asc`
+
+and then retrieve the data and store it in a local directory. 
+________________________________
+
 Our goal is to detect earthquakes based on evidences of firsthand felt reports from Twitter. So we need to identify tweets originating from users who experienced earthquake shaking like this one:
 
 ![the tweets we are looking for](F.png)
