@@ -1,5 +1,5 @@
 # Estimating Earthquake Locations Using Twitter Data and Affinity Propagation
-
+-------------------------------------
 S.Mostafa Mousavi
 
 Seismographs (instruments used for recording seismic signals) continuously record velocity of ground motions at different locations. When the ground shaking at a particular seismic station exceeds a predefined threshold, a seismograph gets triggered and transmit an alert to a data center. Triggering of multiple instruments at different stations over an area within a relatively short period of time usually indicates the occurrence of an earthquake. The transmitted seismic signals from multiple stations need to be processed further to estimate the earthquake hypocenter.
