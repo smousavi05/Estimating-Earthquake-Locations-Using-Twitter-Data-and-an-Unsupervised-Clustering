@@ -1,4 +1,3 @@
-# Estimating Earthquake Locations Using Twitter Data and Affinity Propagation
 
 S.Mostafa Mousavi
 
