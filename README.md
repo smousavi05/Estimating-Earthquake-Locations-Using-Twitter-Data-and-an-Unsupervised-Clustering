@@ -92,5 +92,6 @@ Brendan J. Frey and Delbert Dueck (2007) “Clustering by Passing Messages Betwe
 # Part 5: Results
 
 ![results](F6.png)
+
 Not bad, yeah
 
