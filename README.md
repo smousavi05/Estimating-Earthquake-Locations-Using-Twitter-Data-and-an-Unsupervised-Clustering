@@ -54,6 +54,7 @@ Simply we just need to generate something like this:
 `http://earthquake.usgs.gov/fdsnws/event/1/query.csv?starttime=2000-01-01%2000:00:00&endtime=2015-1231%2023:59:59&maxlatitude=50&minlatitude=24.6&maxlongitude=-65&minlongitude=-125&minmagnitude=3&eventtype=earthquake&orderby=time-asc`
 
 to search for the earthquake information for the same time period and then retrieve the data and store it in a local directory. 
+
 ________________________________
 
 # Part 3: Analyzing the Downloaded Data
@@ -66,6 +67,7 @@ string “http”.
 
 Furthermore, we remove all tweets with the text “RT” or “@”. “RT” is commonly used to identify a tweet 
 as a rebroadcast or “retweet” of another users tweet and the “@” symbol is used in front of a username to reply to another user’s tweet. 
+
 Thus tweets containing “@” and “RT” are likely to arise from a user commenting on an earthquake from outside the felt area.
 
 Filtering tweets with these keywords out, we archive the tweet creation time, text, and coordinates into a dataframe.
