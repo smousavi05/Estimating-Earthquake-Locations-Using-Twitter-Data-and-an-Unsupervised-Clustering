@@ -78,23 +78,12 @@ Filtering tweets with these keywords out, we archive the tweet creation time, te
 
 After filtering of the Twitter data, an unsupervised clustering incorporating temporal/spatial dimension of the data can further help us in identifying earthquake activities. 
 
-I use affinity propagation (Frey and Dueck, 2007) for the clustering. 
-This method is based on the concept of "message passing" between data points and finds "examplars" of the input set that are representative of clusters.
-
-![affinity propagation](F5.png)
-
-AP simultaneously considers all data points as potential exemplars. Considering each data point as a node in
-a network, this method recursively transmits real-valued messages (similarity measurements) along edges of the network until a good set of exemplars and corresponding clusters emerges.
-
-I use this algorithm because unlike other clustering algorithms such as k-means, affinity propagation does not require the number of clusters to be determined or estimated before running the algorithm. 
-
-Brendan J. Frey and Delbert Dueck (2007) “Clustering by Passing Messages Between Data Points”, Science.
 
 -----------------------------------------
 
 # Part 5: Results
 
-![results](F6.png)
+
 
 Not bad, yeah
 
